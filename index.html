@@ -1,0 +1,115 @@
+<!DOCTYPE html> <!-- Where we declare document type & tells browser we're working with HTML version 5 -->
+
+<html lang="en" dir="ltr">
+<!-- Tells browser everything b/w open & close HTML tags is HTML code -->
+
+<!-- The HTML code consists of a HEAD and BODY -->
+
+<head>
+  <!-- HEAD is part of HTML file that holds info. about the webpage and tells browser how to handle the page-->
+  <meta charset="utf-8"> <!-- META elements provide associated meta information about the webpage (encoded in utf-8 character set)-->
+  <!-- Other META attributes include: keywords, author and viewport (https://www.w3schools.com/tags/tag_meta.asp)-->
+  <!-- Note: the tag (<meta name="description" content="This website is all about Isaac Ashurov") will be what's showing on Google's search results description -->
+  <title>Isaac's Personal Site</title> <!-- TITLE defines the title of the webpage shown in the browser tab -->
+</head>
+
+<body>
+  <table cellspacing="20">
+    <!-- The cellspacing attribute spaces <td> cells in a table (note the spacing is applied around all sides of table) -->
+    <tr>
+      <td>
+        <img src="images/isaac-circle-small.png" alt="Isaac Ashurov Profile Photo" height="200">
+      </td>
+      <td>
+        <h1>Isaac Ashurov</h1>
+        <p><em>Computer Enthusiast and <strong>Entrepreneur</strong>.</em></p>
+        <p>I enjoy learning new computer programming languages and designing applications that help solve everyday problems.</p>
+      </td>
+    </tr>
+  </table>
+
+  <hr>
+
+  <h3>Education</h3>
+  <ul>
+    <li><a href="https://wlmac.ca">William Lyon Mackenzie</a></li>
+    <li><a href="http://www.yorku.ca/index.html">York University</a></li>
+    <li><a href="https://education.oracle.com">Oracle University</a></li>
+    <li><a href="https://www.eccu.edu">EC-Council University</a></li>
+  </ul>
+
+  <hr>
+
+  <h3>Work Experience</h3>
+  <table cellspacing="10">
+
+    <thead>
+      <!--This will be our header -->
+      <th>Dates</th> <!-- Note the use of the <th> tag -->
+      <th>Work</th>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td>2007-2020</td>
+        <td>Owner at Eco Industrial Company Inc.</td>
+      </tr>
+      <tr>
+        <td>2010-2020</td>
+        <td>Owner at TQP Consulting Company Inc.</td>
+      </tr>
+      <tr>
+        <td>2019-2020</td>
+        <td>Owner at 2721447 Ontario Inc.</td>
+      </tr>
+      <tr>
+        <td colspan="2">Note: This text spans both cells in the last row.</td>
+      </tr>
+    </tbody>
+
+    <!-- We'll ignore <tfoot> as we don't have a need for a footer in this table at this time -->
+
+  </table>
+
+  <hr>
+
+  <h3>Skills</h3>
+
+  <table>
+    <tr>
+      <td>
+        <table>
+          <tr>
+            <td>Web Development</td>
+            <td>⭐️⭐️⭐️⭐️⭐️</td> <!-- Type control+cmd+space to open emoji -->
+          </tr>
+          <tr>
+            <td>iOS Development</td>
+            <td>⭐️⭐️⭐️⭐️⭐️</td>
+          </tr>
+        </table>
+      </td>
+      <td>
+        <table>
+          <tr>
+            <td>Playing Piano</td>
+            <td>⭐️⭐️⭐️⭐️⭐️</td>
+          </tr>
+          <tr>
+            <td>Photography</td>
+            <td>⭐️⭐️⭐️</td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+
+  <hr>
+
+  <br>
+  <a href="hobbies.html">My Hobbies</a>
+  <a href="contact-me.html">Contact Me</a>
+
+</body>
+
+</html>
